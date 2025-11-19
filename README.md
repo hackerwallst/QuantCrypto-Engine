@@ -17,11 +17,16 @@ Laboratório de **backtesting e pesquisa quantitativa** focado em criptomoedas, 
 
 ---
 
-## 🚀 Como rodar no Google Colab
+##  Como rodar no Google Colab
 
 1. Abra um novo notebook no Google Colab.
 2. Rode:
 
-```python
-!git clone https://github.com/hackerwallst/QuantCrypto-Engine.git
-%cd QuantCrypto-Engine/Framework
+    ```python
+    !git clone https://github.com/hackerwallst/QuantCrypto-Engine.git
+    %cd QuantCrypto-Engine
+    ```
+
+3. Abra o notebook em `examples/Backtest_Framework_BTC.ipynb`.
+4. Execute as células e analise os resultados.
+
