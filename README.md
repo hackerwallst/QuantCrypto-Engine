@@ -1,2 +1,27 @@
 # QuantCrypto-Engine
-QuantCrypto Engine é um laboratório completo de pesquisa quantitativa para criptomoedas. Um framework Python focado em backtesting limpo, modularidade, estratégias plug-and-play, métricas de performance e facilidade de expansão. Criado para acelerar o desenvolvimento de EAs, robôs e modelos quantitativos para o mercado cripto.
+
+Laboratório de **backtesting e pesquisa quantitativa** focado em criptomoedas, rodando em Python (Google Colab + Jupyter).
+
+> 🎯 Objetivo: ter um ambiente onde o trader só pluga a estratégia (EMA, Fibonacci, etc.) e o engine cuida de **dados**, **backtest**, **métricas** e **gráficos**.
+
+---
+
+## 🔧 Status atual
+
+- Projeto em **fase inicial (MVP)**.
+- Lógica principal está sendo construída dentro da pasta `Framework/` em notebooks do Google Colab.
+- Foco atual:
+  - Baixar e organizar dados históricos.
+  - Rodar backtests de forma consistente.
+  - Gerar relatórios e gráficos para avaliar estratégias.
+
+---
+
+## 🚀 Como rodar no Google Colab
+
+1. Abra um novo notebook no Google Colab.
+2. Rode:
+
+```python
+!git clone https://github.com/hackerwallst/QuantCrypto-Engine.git
+%cd QuantCrypto-Engine/Framework
